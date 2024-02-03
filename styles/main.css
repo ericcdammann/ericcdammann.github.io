@@ -1,63 +1,68 @@
-header{
+header {
     background: rgb(0, 165, 255);
     color: rgb(255, 255, 255);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     padding: 15px;
     margin: 0px;
 
 }
-section{
+section {
     background: rgb(255, 255, 255);
     color: rgb(0, 165, 255);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
     padding: 15px;
     margin: 0px;
     display: flex;
 }
-footer{
+footer {
     background: rgb(0, 165, 255);
     color: rgb(255, 255, 255);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
     padding: 15px;
     margin: 0px;
 }
-div{
+div {
     display: inline-block;
     margin: 0px;
     padding: 15px;
 }
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-li{
+li {
     display: inline-block;
     margin-right: 15px;
 }
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
-p{
+p {
     text-indent: 30px;
 }
-button{
+button {
     background: rgb(255, 255, 255);
     color: rgb(0, 165, 255);
     border: none;
     text-decoration: none;
 }
-.row{
+img {
+    pointer-events: none;
+}
+.row {
     display: flex;
 }
   
-.column{
+.column {
     flex: 50%;
 }
-.mid{
+.mid {
     text-align: center;
 }
-p.nind{
+p.nind {
     text-indent: 0px;
 }
